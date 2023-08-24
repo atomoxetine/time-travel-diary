@@ -1,0 +1,26 @@
+§CREATE ENTRY:
+* creates diary entry, specifying the date of which the entry is referring to, the entry content, with HTML5 text formatting and attatchment support, the tags and saves the entry alongside with the creation timestamp.
+
+MODIFY ENTRY:
+* modifies already existing diary entry, allowing the user to change the associated tags, then saves the entry with an edit timestamp and edit details, maintaining a history of entry changes. Content changes and entry deletion are not allowed, in order to mimick a physical diary.
+
+EXPORT SAVE:
+* exports current save into a file for it to be loaded into another client.
+
+IMPORT SAVE:
+* imports existing save file into the client.
+
+VIEW ENTRIES:
+* view a list of all entries, which can be sorted by write timestamp, the entry's associated date and can also be filtered using tags.
+
+VIEW CALENDAR:
+* generates a calendar view of all entries, being able to switch between a decade focus (showing years or months), year focus (showing months or weeks), month focus (showing days), week focus (showing days) and a day focus.
+* time frames can be color coded using tags, for which the default configuration can be provided by the save configuration.
+* when viewing a single day, it is shown the list of diary entries of that day, sorted by their write timestamp.
+* entries shown can be filtered using tags.
+
+CONFIGURE SAVE:
+* lets the user configure the available tags and the default color coding of the calendar view.
+
+CONFIGURE CLIENT:
+* lets the user configure the default text size, app colours and general quality of life features.
